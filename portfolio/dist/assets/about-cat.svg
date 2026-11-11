@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <symbol id="cat" viewBox="0 0 120 100">
+    <g fill="var(--bg, #fff)" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M35 64 C20 62 11 47 12 32 C12 22 19 18 24 22 C31 27 23 35 24 41 C25 50 31 52 39 54"/>
+      <path d="M40 74 L45 87 C48 87 51 89 51 93 L39 93 L33 78 M66 73 L76 85 C81 85 84 88 83 93 L71 93 L60 79"/>
+      <path d="M31 55 C45 49 66 49 79 57 C87 62 89 72 81 80 L77 89 C81 89 82 91 81 94 L67 94 L67 81 C59 84 48 82 42 79 L36 89 C40 89 42 91 41 94 L27 94 L29 76 C24 68 25 60 31 55 Z"/>
+      <path d="M72 39 L71 23 C71 20 73 20 75 22 L85 33 C91 31 97 32 101 35 L109 25 C111 23 113 25 112 28 L110 47 C114 55 109 65 100 68 C88 73 75 67 72 57 C68 51 69 44 72 39 Z"/>
+      <path fill="none" stroke-width="1.7" d="M76 28 L78 36 M108 31 L106 38 M77 51 L64 49 M78 55 L64 57 M104 50 L116 47 M105 54 L117 56 M95 55 L96 59 C93 63 89 62 88 60 M96 59 C99 62 102 60 103 58"/>
+      <path fill="currentColor" stroke="none" d="M91 52 Q95 50 99 52 Q97 56 95 56 Q92 55 91 52 Z"/>
+      <ellipse fill="currentColor" stroke="none" cx="83" cy="46" rx="1.8" ry="2.5"/>
+      <ellipse fill="currentColor" stroke="none" cx="103" cy="44.5" rx="1.7" ry="2.5"/>
+      <path fill="none" stroke-width="1.5" d="M32 91 L32 94 M71 91 L71 94 M34 61 C31 63 31 67 33 69"/>
+    </g>
+  </symbol>
+</svg>

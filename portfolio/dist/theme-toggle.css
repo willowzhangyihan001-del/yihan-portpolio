@@ -1,0 +1,44 @@
+/* Loose ink strokes, like the other doodles in the portfolio. */
+.theme{
+ display:flex;align-items:center;justify-content:center;gap:4px;
+ width:68px;height:44px;padding:4px;
+ right:22px;bottom:20px;
+ border:0;border-radius:0;background:transparent;
+ box-shadow:none;backdrop-filter:none;
+ color:var(--ink);touch-action:manipulation;
+ transition:transform .35s cubic-bezier(.2,.8,.2,1),color .5s;
+}
+.theme svg{
+ display:block;flex:none;width:22px;height:22px;overflow:visible;
+ fill:none;stroke:currentColor;stroke-width:2.4;
+ stroke-linecap:round;stroke-linejoin:round;
+ pointer-events:none;
+}
+.theme-sun,.theme-moon{
+ transform-origin:center;
+ transition:opacity .3s,transform .55s cubic-bezier(.2,.8,.2,1);
+}
+.theme-sun{opacity:1;transform:rotate(-6deg)}
+.theme-moon{opacity:.4;transform:rotate(5deg) scale(.92)}
+.theme .theme-slash{width:8px;height:25px;stroke-width:1.6;opacity:.7}
+.theme-trace{stroke-width:.8;opacity:.3}
+.theme-star{stroke-width:1.5}
+body.dark .theme-sun{opacity:.4;transform:rotate(-12deg) scale(.92)}
+body.dark .theme-moon{opacity:1;transform:rotate(-5deg) scale(1)}
+.theme:hover{transform:translateY(-1px) rotate(-2deg)}
+.theme:active{transform:scale(.95)}
+.theme:focus-visible{outline:none}
+.theme:focus-visible::before{
+ content:"";position:absolute;inset:0;
+ border:1.5px dashed currentColor;
+ border-radius:46% 54% 49% 51% / 53% 46% 54% 47%;
+ transform:rotate(7deg);
+}
+@media(max-width:700px){
+ .theme{right:18px;bottom:18px;width:64px}
+ .theme svg{width:20px;height:20px}
+}
+@media(prefers-reduced-motion:reduce){
+ .theme,.theme-sun,.theme-moon{transition:none}
+ .theme:hover,.theme:active{transform:none}
+}

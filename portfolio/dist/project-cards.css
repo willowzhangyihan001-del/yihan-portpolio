@@ -1,0 +1,51 @@
+/* Original KARIOS artwork stays fully visible in every project entry. */
+.deck-card[data-project-key="karios"],.grid [data-project-key="karios"]{position:relative}
+.deck-card[data-project-key="karios"] img,.project[data-project-key="karios"] img,.grid [data-project-key="karios"] img{object-fit:contain;background:#202020}
+.deck-card[data-project-key="karios"]::before,.project[data-project-key="karios"]::before,.grid [data-project-key="karios"]::before{content:'KARIOS';position:absolute;left:0;top:15%;width:100%;text-align:center;font-family:Outfit,sans-serif;font-weight:700;font-size:clamp(24px,3vw,42px);letter-spacing:-.04em;color:#f5f5f5;pointer-events:none;z-index:1}
+.deck-card[data-project-key="karios"]::before{font-size:27px;top:13%}
+.project[data-project-key="karios"]::before{top:42px}
+.grid [data-project-key="karios"]::before{top:10%}
+.deck-card[data-project-key="karios"]::after,.project[data-project-key="karios"]::after,.grid [data-project-key="karios"]::after{content:'PROJECT 01';position:absolute;left:0;top:65%;width:100%;text-align:center;font-family:Outfit,sans-serif;font-size:9px;letter-spacing:.16em;color:#f5f5f5;pointer-events:none}
+.project[data-project-key="karios"]::after{top:253px}
+.grid [data-project-key="karios"]::after{top:60%}
+@media(max-width:700px){.deck-card[data-project-key="karios"]::before{font-size:19px}.deck-card[data-project-key="karios"]::after{font-size:7px;top:73%}.project[data-project-key="karios"]::after{top:220px}.grid [data-project-key="karios"]::before{font-size:23px}.grid [data-project-key="karios"]::after{font-size:8px}}
+
+.grid .work-card{border:0;background:none;padding:0;text-align:left;display:block;min-width:0}
+.deck-card{display:block}.project{font:inherit;color:inherit;text-align:center}
+.deck-card:not(a),.project:not(a),.work-card:not(a){cursor:default}
+
+/* Original TOKEN OFFICE artwork stays fully visible in every project entry. */
+.deck-card[data-project-key="token-office"],.grid [data-project-key="token-office"]{position:relative}
+.deck-card[data-project-key="token-office"] img,.project[data-project-key="token-office"] img,.grid [data-project-key="token-office"] img{object-fit:contain;background:#ededed}
+.deck-card[data-project-key="token-office"]::before,.project[data-project-key="token-office"]::before,.grid [data-project-key="token-office"]::before{content:'TOKEN OFFICE';position:absolute;left:0;top:15%;width:100%;text-align:center;font-family:Outfit,sans-serif;font-weight:700;font-size:clamp(24px,2.6vw,36px);letter-spacing:-.04em;color:#171717;pointer-events:none;z-index:1}
+.deck-card[data-project-key="token-office"]::before{font-size:22px;top:13%}
+.project[data-project-key="token-office"]::before{top:42px}
+.grid [data-project-key="token-office"]::before{top:10%}
+.deck-card[data-project-key="token-office"]::after,.project[data-project-key="token-office"]::after,.grid [data-project-key="token-office"]::after{content:'PROJECT 02';position:absolute;left:0;top:65%;width:100%;text-align:center;font-family:Outfit,sans-serif;font-size:9px;letter-spacing:.16em;color:#171717;pointer-events:none}
+.project[data-project-key="token-office"]::after{top:253px}
+.grid [data-project-key="token-office"]::after{top:60%}
+@media(max-width:700px){.deck-card[data-project-key="token-office"]::before{font-size:16px}.deck-card[data-project-key="token-office"]::after{font-size:7px;top:73%}.project[data-project-key="token-office"]::after{top:220px}.grid [data-project-key="token-office"]::before{font-size:23px}.grid [data-project-key="token-office"]::after{font-size:8px}}
+
+/* Original CONSTELLIA artwork stays fully visible in every project entry. */
+.deck-card[data-project-key="constellia"],.grid [data-project-key="constellia"]{position:relative}
+.deck-card[data-project-key="constellia"] img,.project[data-project-key="constellia"] img,.grid [data-project-key="constellia"] img{object-fit:contain;background:#dedede}
+.deck-card[data-project-key="constellia"]::before,.project[data-project-key="constellia"]::before,.grid [data-project-key="constellia"]::before{content:'CONSTELLIA';position:absolute;left:0;top:15%;width:100%;text-align:center;font-family:Outfit,sans-serif;font-weight:700;font-size:clamp(24px,2.6vw,36px);letter-spacing:-.04em;color:#171717;pointer-events:none;z-index:1}
+.deck-card[data-project-key="constellia"]::before{font-size:22px;top:13%}
+.project[data-project-key="constellia"]::before{top:42px}
+.grid [data-project-key="constellia"]::before{top:10%}
+.deck-card[data-project-key="constellia"]::after,.project[data-project-key="constellia"]::after,.grid [data-project-key="constellia"]::after{content:'PROJECT 03';position:absolute;left:0;top:65%;width:100%;text-align:center;font-family:Outfit,sans-serif;font-size:9px;letter-spacing:.16em;color:#171717;pointer-events:none}
+.project[data-project-key="constellia"]::after{top:253px}
+.grid [data-project-key="constellia"]::after{top:60%}
+@media(max-width:700px){.deck-card[data-project-key="constellia"]::before{font-size:16px}.deck-card[data-project-key="constellia"]::after{font-size:7px;top:73%}.project[data-project-key="constellia"]::after{top:220px}.grid [data-project-key="constellia"]::before{font-size:23px}.grid [data-project-key="constellia"]::after{font-size:8px}}
+
+/* Original NECKOTICS artwork stays fully visible in every project entry. */
+.deck-card[data-project-key="neckotics"],.grid [data-project-key="neckotics"]{position:relative}
+.deck-card[data-project-key="neckotics"] img,.project[data-project-key="neckotics"] img,.grid [data-project-key="neckotics"] img{object-fit:contain;background:#333333}
+.deck-card[data-project-key="neckotics"]::before,.project[data-project-key="neckotics"]::before,.grid [data-project-key="neckotics"]::before{content:'NECKOTICS';position:absolute;left:0;top:15%;width:100%;text-align:center;font-family:Outfit,sans-serif;font-weight:700;font-size:clamp(24px,2.6vw,36px);letter-spacing:-.04em;color:#f5f5f5;pointer-events:none;z-index:1}
+.deck-card[data-project-key="neckotics"]::before{font-size:22px;top:13%}
+.project[data-project-key="neckotics"]::before{top:42px}
+.grid [data-project-key="neckotics"]::before{top:10%}
+.deck-card[data-project-key="neckotics"]::after,.project[data-project-key="neckotics"]::after,.grid [data-project-key="neckotics"]::after{content:'PROJECT 04';position:absolute;left:0;top:65%;width:100%;text-align:center;font-family:Outfit,sans-serif;font-size:9px;letter-spacing:.16em;color:#f5f5f5;pointer-events:none}
+.project[data-project-key="neckotics"]::after{top:253px}
+.grid [data-project-key="neckotics"]::after{top:60%}
+@media(max-width:700px){.deck-card[data-project-key="neckotics"]::before{font-size:16px}.deck-card[data-project-key="neckotics"]::after{font-size:7px;top:73%}.project[data-project-key="neckotics"]::after{top:220px}.grid [data-project-key="neckotics"]::before{font-size:23px}.grid [data-project-key="neckotics"]::after{font-size:8px}}

@@ -1,0 +1,3 @@
+/* The original background image is displayed without filters or overlays. */
+body.project-token-office{position:relative;isolation:isolate;min-height:100svh;background:#080808}
+body.project-token-office::before{content:'';position:fixed;inset:0;z-index:-1;pointer-events:none;background:url('assets/project2/background.png') center center / cover no-repeat}

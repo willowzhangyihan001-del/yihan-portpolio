@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <symbol id="yihan-wordmark" viewBox="0 0 640 190">
+    <g fill="none" stroke="currentColor" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M39 23 C55 43 67 69 88 94 C91 118 94 145 95 171 M88 94 C102 67 111 43 125 20"/>
+      <path d="M162 24 C173 22 187 20 201 20 M180 23 C180 70 185 116 185 165 M162 168 C174 169 190 167 203 166"/>
+      <path d="M281 20 C279 66 272 121 268 169 M358 23 C352 72 347 124 344 171 M276 96 C296 98 325 95 350 96"/>
+      <path d="M389 169 C403 120 420 70 433 23 C434 17 437 21 439 29 C451 75 466 122 479 171 M404 119 C420 116 445 119 463 117"/>
+      <path d="M508 170 C513 123 516 73 522 27 C522 21 525 25 527 32 C547 79 564 125 585 169 C587 173 587 166 588 160 C593 115 599 66 604 25"/>
+    </g>
+    <g fill="none" stroke="currentColor" stroke-width="1.3" opacity=".38" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M40 21 C56 44 70 73 90 94 L97 170 M87 94 C100 65 113 39 124 19"/>
+      <path d="M161 23 L202 18 M178 24 C180 70 183 126 184 167 M163 170 L202 168"/>
+      <path d="M283 21 C279 73 274 124 270 168 M356 22 C352 75 345 128 343 170 M276 98 C301 98 327 96 349 98"/>
+      <path d="M391 170 C405 122 419 73 435 22 M438 26 C450 73 465 126 477 170 M405 117 C422 116 444 118 463 116"/>
+      <path d="M510 171 C516 120 518 72 524 27 M526 31 C548 82 568 132 586 168 M590 159 C594 110 601 59 606 26"/>
+    </g>
+  </symbol>
+
+  <symbol id="nav-back" viewBox="0 0 100 100">
+    <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+      <path stroke-width="3.3" d="M28 11 C43 5 65 8 77 16 C90 26 93 45 89 65 C87 80 75 90 59 91 C41 93 21 88 15 79 C8 66 7 44 12 29 C15 20 20 15 28 11 Z"/>
+      <path stroke-width=".9" opacity=".4" d="M29 10 C44 6 65 9 78 17 C90 29 92 47 88 66 C85 81 74 89 57 90 C39 91 20 87 14 77 C9 63 8 43 13 28 C17 19 21 14 29 10 Z"/>
+    </g>
+    <path fill="currentColor" d="M45 28 C42 28 34 36 26 43 C23 46 23 50 26 53 C31 59 37 66 43 69 C48 72 49 67 48 61 L47 56 C55 56 61 57 68 56 C72 56 72 51 71 46 C71 42 68 42 64 42 L48 43 C48 37 49 29 45 28 Z"/>
+    <path fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" d="M44 29 L26 48 L44 68 M29 48 L69 49"/>
+  </symbol>
+
+  <symbol id="nav-next" viewBox="0 0 100 100">
+    <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+      <path stroke-width="3.3" d="M28 12 C42 6 65 8 77 17 C88 26 94 43 90 62 C88 79 78 91 60 92 C42 93 23 88 15 78 C8 67 7 47 12 31 C15 21 20 16 28 12 Z"/>
+      <path stroke-width=".9" opacity=".4" d="M27 14 C44 6 66 10 78 18 C89 29 92 45 89 63 C86 81 76 90 58 91 C39 92 21 86 14 76 C8 62 9 43 13 29 C17 20 21 16 27 14 Z"/>
+    </g>
+    <path fill="currentColor" d="M55 29 C58 28 65 36 73 43 C77 46 77 50 74 54 C69 59 62 66 57 70 C52 72 50 67 51 62 L52 56 C44 57 37 57 31 56 C27 56 27 52 28 47 C28 42 31 42 36 43 L51 44 C51 38 50 30 55 29 Z"/>
+    <path fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" d="M56 30 L75 49 L56 69 M29 49 L72 50"/>
+  </symbol>
+
+  <symbol id="hanger" viewBox="0 0 240 100">
+    <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+      <path stroke-width="3" d="M111 19 C111 8 122 3 130 8 C140 15 135 27 128 32 C124 35 126 40 126 44 M126 44 C104 48 55 65 22 78 C12 82 16 89 29 90 C80 95 169 95 213 88 C228 86 231 80 219 74 C188 61 149 48 126 44 Z"/>
+      <path stroke-width="1" opacity=".38" d="M112 19 C113 8 123 5 131 10 C139 16 134 28 127 32 L125 44 M125 45 C102 50 54 67 22 80 C15 83 18 89 30 89 C81 94 166 94 212 87 C224 85 229 81 218 76 C186 62 150 49 125 45"/>
+    </g>
+  </symbol>
+</svg>

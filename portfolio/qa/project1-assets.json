@@ -1,0 +1,38 @@
+﻿[
+    {
+        "source":  "C:\\Users\\20232\\Desktop\\排版完成\\长版PNG\\1.1.png",
+        "destination":  "portfolio\\dist\\assets\\project1\\01-background.png",
+        "sha256":  "BE1E4613B7E35590C7AEB40D5745881120E4D92556FB4A9F151C2FF3809B2479",
+        "unchanged":  true
+    },
+    {
+        "source":  "C:\\Users\\20232\\Desktop\\排版完成\\长版PNG\\1.2.png",
+        "destination":  "portfolio\\dist\\assets\\project1\\02-research.png",
+        "sha256":  "148CA6B52AC35B1A4C2103E8454C5A06E365009B40CF933D0100E517529181D0",
+        "unchanged":  true
+    },
+    {
+        "source":  "C:\\Users\\20232\\Desktop\\排版完成\\长版PNG\\1.3.png",
+        "destination":  "portfolio\\dist\\assets\\project1\\03-concept.png",
+        "sha256":  "2B128EC38B890BF3CFDED5F599A4EC44BA744709A13664C70D5D349244D035FA",
+        "unchanged":  true
+    },
+    {
+        "source":  "C:\\Users\\20232\\Desktop\\排版完成\\长版PNG\\1.4.png",
+        "destination":  "portfolio\\dist\\assets\\project1\\04-journey.png",
+        "sha256":  "B6FAC0D5820B887D36FC6967DCAAF651D81A611B26990E915AF9488BC8CAC7CC",
+        "unchanged":  true
+    },
+    {
+        "source":  "C:\\Users\\20232\\Desktop\\排版完成\\长版PNG\\1.5.png",
+        "destination":  "portfolio\\dist\\assets\\project1\\05-prototype.png",
+        "sha256":  "8432A2DE193C230AAFC0D17CAF0C6BF028566D65DB26947BA524E1ADB4437D88",
+        "unchanged":  true
+    },
+    {
+        "source":  "C:\\Users\\20232\\Desktop\\排版完成\\长版PNG\\1.6.png",
+        "destination":  "portfolio\\dist\\assets\\project1\\06-outcome.png",
+        "sha256":  "A1446952406097B6C94E104CE4D14B028DE45CB434E064A0BE339ABBDA4E02B7",
+        "unchanged":  true
+    }
+]

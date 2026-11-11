@@ -1,0 +1,411 @@
+{
+  "viewports": [
+    {
+      "width": 1440,
+      "height": 1000,
+      "sectionHeight": 1000,
+      "top": -0.046875,
+      "overflow": false,
+      "bodyOverflow": false,
+      "items": [
+        {
+          "class": "contact-name reveal visible",
+          "left": 83.3007583618164,
+          "right": 561.2548904418945,
+          "top": 163.90313720703125,
+          "bottom": 306.5440673828125
+        },
+        {
+          "class": "contact-note",
+          "left": 86.390625,
+          "right": 558.8125,
+          "top": 719.78125,
+          "bottom": 802.5625
+        },
+        {
+          "class": "contact-email",
+          "left": 86.390625,
+          "right": 329.078125,
+          "top": 826.5625,
+          "bottom": 855.953125
+        },
+        {
+          "class": "contact-artwork",
+          "left": 623.8045654296875,
+          "right": 1312.6016845703125,
+          "top": 271.35504150390625,
+          "bottom": 793.1449584960938
+        },
+        {
+          "class": "contact-footer",
+          "left": 86.390625,
+          "right": 1353.609375,
+          "top": 949.953125,
+          "bottom": 975.953125
+        }
+      ]
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "sectionHeight": 1080,
+      "top": -0.109375,
+      "overflow": false,
+      "bodyOverflow": false,
+      "items": [
+        {
+          "class": "contact-name reveal visible",
+          "left": 316.6505126953125,
+          "right": 799.9610595703125,
+          "top": 167.59393310546875,
+          "bottom": 320.39666748046875
+        },
+        {
+          "class": "contact-note",
+          "left": 320,
+          "right": 797.265625,
+          "top": 794.125,
+          "bottom": 876.90625
+        },
+        {
+          "class": "contact-email",
+          "left": 320,
+          "right": 562.6875,
+          "top": 900.90625,
+          "bottom": 930.296875
+        },
+        {
+          "class": "contact-artwork",
+          "left": 845.9676513671875,
+          "right": 1575.2823486328125,
+          "top": 295.94573974609375,
+          "bottom": 848.4292602539062
+        },
+        {
+          "class": "contact-footer",
+          "left": 320,
+          "right": 1600,
+          "top": 1029.890625,
+          "bottom": 1055.890625
+        }
+      ]
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "sectionHeight": 768,
+      "top": -0.3125,
+      "overflow": false,
+      "bodyOverflow": false,
+      "items": [
+        {
+          "class": "contact-name reveal visible",
+          "left": 79.02190399169922,
+          "right": 531.942741394043,
+          "top": 150.8036651611328,
+          "bottom": 286.0951232910156
+        },
+        {
+          "class": "contact-note",
+          "left": 81.953125,
+          "right": 529.625,
+          "top": 508.40625,
+          "bottom": 586.9375
+        },
+        {
+          "class": "contact-email",
+          "left": 81.953125,
+          "right": 319.75,
+          "top": 610.9375,
+          "bottom": 639.9375
+        },
+        {
+          "class": "contact-artwork",
+          "left": 574.4295654296875,
+          "right": 1263.2266845703125,
+          "top": 153.82376098632812,
+          "bottom": 675.6136779785156
+        },
+        {
+          "class": "contact-footer",
+          "left": 81.953125,
+          "right": 1284.046875,
+          "top": 717.6875,
+          "bottom": 743.6875
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "sectionHeight": 1024,
+      "top": -0.296875,
+      "overflow": false,
+      "bodyOverflow": false,
+      "items": [
+        {
+          "class": "contact-name reveal visible",
+          "left": 43.72300720214844,
+          "right": 321.8236541748047,
+          "top": 145.03076171875,
+          "bottom": 249.23519897460938
+        },
+        {
+          "class": "contact-note",
+          "left": 46.078125,
+          "right": 319.84375,
+          "top": 758.34375,
+          "bottom": 825.03125
+        },
+        {
+          "class": "contact-email",
+          "left": 46.078125,
+          "right": 239.359375,
+          "top": 849.03125,
+          "bottom": 878.03125
+        },
+        {
+          "class": "contact-artwork",
+          "left": 341.39825439453125,
+          "right": 724.3517456054688,
+          "top": 393.4412841796875,
+          "bottom": 683.5430908203125
+        },
+        {
+          "class": "contact-footer",
+          "left": 46.078125,
+          "right": 721.921875,
+          "top": 973.703125,
+          "bottom": 999.703125
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "sectionHeight": 844,
+      "top": -0.4375,
+      "overflow": false,
+      "bodyOverflow": false,
+      "items": [
+        {
+          "class": "contact-name reveal visible",
+          "left": 21.244850158691406,
+          "right": 308.38260650634766,
+          "top": 186.29534912109375,
+          "bottom": 283.0063171386719
+        },
+        {
+          "class": "contact-note",
+          "left": 23.390625,
+          "right": 366.609375,
+          "top": 576.46875,
+          "bottom": 636.46875
+        },
+        {
+          "class": "contact-email",
+          "left": 23.390625,
+          "right": 233.265625,
+          "top": 652.46875,
+          "bottom": 677.65625
+        },
+        {
+          "class": "contact-artwork",
+          "left": 23.390625,
+          "right": 366.609375,
+          "top": 301.0625,
+          "bottom": 558.46875
+        },
+        {
+          "class": "contact-footer",
+          "left": 23.390625,
+          "right": 366.609375,
+          "top": 797.5625,
+          "bottom": 823.5625
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "height": 740,
+      "sectionHeight": 740,
+      "top": 0.28125,
+      "overflow": false,
+      "bodyOverflow": false,
+      "items": [
+        {
+          "class": "contact-name reveal visible",
+          "left": 17.251070022583008,
+          "right": 276.3674030303955,
+          "top": 154.15834045410156,
+          "bottom": 241.4336700439453
+        },
+        {
+          "class": "contact-note",
+          "left": 19.1875,
+          "right": 300.8125,
+          "top": 488.703125,
+          "bottom": 543.890625
+        },
+        {
+          "class": "contact-email",
+          "left": 19.1875,
+          "right": 205.859375,
+          "top": 559.890625,
+          "bottom": 584.890625
+        },
+        {
+          "class": "contact-artwork",
+          "left": 19.1875,
+          "right": 300.8125,
+          "top": 259.484375,
+          "bottom": 470.703125
+        },
+        {
+          "class": "contact-footer",
+          "left": 19.1875,
+          "right": 300.8125,
+          "top": 678.5,
+          "bottom": 720.28125
+        }
+      ]
+    },
+    {
+      "width": 375,
+      "height": 667,
+      "sectionHeight": 667,
+      "top": 0.015625,
+      "overflow": false,
+      "bodyOverflow": false,
+      "items": [
+        {
+          "class": "contact-name reveal visible",
+          "left": 20.82524871826172,
+          "right": 244.93428802490234,
+          "top": 141.67745971679688,
+          "bottom": 217.15927124023438
+        },
+        {
+          "class": "contact-note",
+          "left": 22.5,
+          "right": 352.5,
+          "top": 434.625,
+          "bottom": 489.8125
+        },
+        {
+          "class": "contact-email",
+          "left": 22.5,
+          "right": 232.375,
+          "top": 501.8125,
+          "bottom": 527
+        },
+        {
+          "class": "contact-artwork",
+          "left": 22.5,
+          "right": 352.5,
+          "top": 229.203125,
+          "bottom": 422.625
+        },
+        {
+          "class": "contact-footer",
+          "left": 22.5,
+          "right": 352.5,
+          "top": 621.015625,
+          "bottom": 647.015625
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "sectionHeight": 568,
+      "top": 0.28125,
+      "overflow": false,
+      "bodyOverflow": false,
+      "items": [
+        {
+          "class": "contact-name reveal visible",
+          "left": 17.51274871826172,
+          "right": 241.62178802490234,
+          "top": 99.00558471679688,
+          "bottom": 174.48739624023438
+        },
+        {
+          "class": "contact-note",
+          "left": 19.1875,
+          "right": 300.8125,
+          "top": 363.25,
+          "bottom": 418.4375
+        },
+        {
+          "class": "contact-email",
+          "left": 19.1875,
+          "right": 205.859375,
+          "top": 430.4375,
+          "bottom": 455.4375
+        },
+        {
+          "class": "contact-artwork",
+          "left": 19.1875,
+          "right": 300.8125,
+          "top": 186.53125,
+          "bottom": 351.25
+        },
+        {
+          "class": "contact-footer",
+          "left": 19.1875,
+          "right": 300.8125,
+          "top": 506.5,
+          "bottom": 548.28125
+        }
+      ]
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "sectionHeight": 390,
+      "top": -0.265625,
+      "overflow": false,
+      "bodyOverflow": false,
+      "items": [
+        {
+          "class": "contact-name reveal visible",
+          "left": 48.636234283447266,
+          "right": 354.07504653930664,
+          "top": 81.58128356933594,
+          "bottom": 173.2760467529297
+        },
+        {
+          "class": "contact-note",
+          "left": 50.625,
+          "right": 352.5,
+          "top": 217.421875,
+          "bottom": 279.515625
+        },
+        {
+          "class": "contact-email",
+          "left": 50.625,
+          "right": 243.90625,
+          "top": 297.515625,
+          "bottom": 326.515625
+        },
+        {
+          "class": "contact-artwork",
+          "left": 374.2176513671875,
+          "right": 795.6573486328125,
+          "top": 81.71058654785156,
+          "bottom": 354.13319396972656
+        },
+        {
+          "class": "contact-footer",
+          "left": 50.625,
+          "right": 793.375,
+          "top": 343.734375,
+          "bottom": 369.734375
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "missing": []
+}

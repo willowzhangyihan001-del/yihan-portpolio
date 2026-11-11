@@ -1,0 +1,44 @@
+/* A full-screen final page, drawn in the same ink as the rest of the portfolio. */
+.contact{position:relative;display:grid;grid-template-rows:auto 1fr auto;gap:24px;min-height:100svh;height:auto;padding:clamp(32px,6svh,64px) 6% max(24px,env(safe-area-inset-bottom));background:var(--bg);color:var(--ink);scroll-margin-top:-65px}
+.contact-topline,.contact-main,.contact-footer{width:100%;max-width:1280px;margin:0 auto}
+.contact-kicker{font-family:Caveat,'Segoe Print',cursive;font-size:clamp(36px,3.2vw,46px);font-weight:500;line-height:1.1}
+.contact-main{display:grid;grid-template-columns:minmax(0,.38fr) minmax(0,.62fr);align-items:center;gap:24px;min-height:auto}
+.contact-copy{position:relative;z-index:1;align-self:stretch;display:flex;flex-direction:column;justify-content:space-between;gap:32px;padding:clamp(24px,5svh,60px) 0 clamp(30px,7svh,80px)}
+.contact .contact-name{font-family:Caveat,'Segoe Print',cursive;font-size:clamp(88px,8.2vw,128px);font-weight:500;line-height:1;letter-spacing:.015em;margin:0;transform:rotate(-3deg);transform-origin:left center}
+.contact-note{margin:0 0 24px;font-family:Caveat,'Segoe Print',cursive;font-size:clamp(27px,2.5vw,36px);font-weight:400;line-height:1.15;color:var(--ink)}
+.contact-email{display:inline-flex;align-items:center;gap:12px;max-width:100%;font-family:Outfit,Inter,sans-serif;font-size:clamp(17px,1.5vw,21px);line-height:1.4;color:var(--ink)}
+.contact-email>span{position:relative;white-space:nowrap}
+.contact-email>span::after{content:"";position:absolute;left:0;right:0;bottom:-7px;height:6px;background:currentColor;mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='6' viewBox='0 0 28 6'%3E%3Cpath d='M-7 3 Q0 -1 7 3 T21 3 T35 3' fill='none' stroke='black' stroke-width='1.5'/%3E%3C/svg%3E") left center/28px 6px repeat-x;opacity:.65;transition:opacity .2s}
+.contact-email svg{flex:none;width:29px;height:29px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;transition:transform .25s}
+.contact-email:hover svg{transform:translate(3px,-3px)}
+.contact-email:hover>span::after{opacity:1}
+.contact-artwork{width:100%;max-width:680px;min-width:0;margin:0;align-self:center;justify-self:center;transform:rotate(1deg)}
+.contact-artwork img{display:block;width:100%;height:auto;max-height:70svh;object-fit:contain}
+body.dark .contact-artwork img{filter:invert(1)}
+.contact .contact-footer{display:flex;align-items:center;justify-content:space-between;gap:20px;border:0;padding:0;font-family:Outfit,Inter,sans-serif;font-size:11px;line-height:1.4;color:var(--muted)}
+.contact-top{display:inline-flex;flex-shrink:0;white-space:nowrap;align-items:center;gap:8px;margin-right:48px;font-family:Caveat,'Segoe Print',cursive;font-size:23px;line-height:1.1;color:var(--ink)}
+.contact-top svg{width:20px;height:26px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round;transition:transform .2s}
+.contact-top:hover svg{transform:translateY(-3px)}
+body:has(#contact:target)>header,body.contact-in-view>header{visibility:hidden}
+@media(min-width:1800px){.contact-artwork{width:100%;max-width:720px}}
+@media(max-width:1000px) and (min-width:701px){.contact-main{grid-template-columns:minmax(0,.42fr) minmax(0,.58fr)}.contact-copy{padding-top:32px}.contact-email{font-size:17px;gap:7px}.contact-email svg{width:23px}.contact .contact-name{font-size:90px}.contact-artwork{width:100%;max-width:500px;margin:0}.contact-note{font-size:29px}}
+@media(max-height:720px) and (min-width:701px){.contact{padding-top:34px;padding-bottom:20px;gap:12px}.contact-copy{padding:12px 0 24px;gap:20px}.contact .contact-name{font-size:clamp(76px,8vw,108px)}.contact-note{font-size:27px;margin-bottom:18px}.contact-artwork img{max-height:68svh}}
+@media(max-width:700px){
+ .contact{height:auto;min-height:100svh;gap:18px;padding:42px 6% max(24px,env(safe-area-inset-bottom))}
+ .contact-main{display:flex;flex-direction:column;justify-content:center;align-items:stretch;gap:18px}
+ .contact-copy{display:contents}
+ .contact .contact-name{order:0;font-size:82px;align-self:flex-start;line-height:1}
+ .contact-artwork{order:1;align-self:center;width:100%;max-width:450px;margin:0;transform:none}
+ .contact-artwork img{max-height:38svh}
+ .contact-message{order:2}
+ .contact-note{font-size:25px;line-height:1.2;margin-bottom:16px}
+ .contact-note br{display:none}
+ .contact-email{font-size:18px;gap:12px}
+ .contact-email svg{width:25px;height:25px}
+ .contact .contact-footer{font-size:9px;gap:8px;padding-right:74px}
+ .contact-top{font-size:20px;margin-right:0;gap:5px}
+}
+@media(max-width:360px){.contact{padding-top:34px}.contact .contact-name{font-size:74px}.contact-note{font-size:23px}.contact-email{font-size:16px;gap:8px}.contact-top{font-size:19px;margin-right:0}}
+@media(prefers-reduced-motion:reduce){.contact-email svg,.contact-email>span::after,.contact-top svg{transition:none}.contact .contact-name{opacity:1;translate:none}}
+
+@media(max-width:700px) and (max-height:720px){.contact{padding-top:24px;gap:12px}.contact-kicker{font-size:32px}.contact .contact-name{font-size:64px}.contact-artwork img{max-height:29svh}.contact-main{gap:12px}.contact-note{font-size:23px;margin-bottom:12px}}

@@ -1,0 +1,11 @@
+# Contact illustration
+
+Mode: built-in ImageGen. Selected final asset: `../dist/assets/contact-yihan.png`.
+User direction: black-and-white cats inspired by the supplied doodle reference, no people. English name and exact email are rendered as HTML rather than embedded in the art.
+
+## Final prompt
+
+Use case: illustration-story.
+Asset type: transparent PNG line-art illustration for a minimalist personal portfolio Contact page. Primary request: A small charming group of THREE whimsical cats drawn with very simple, loose BLACK PEN lines on a transparent background. One tall plump pear-shaped cat stands behind a little round loaf-shaped cat at its left foot, and a smaller upright cat stands a small distance on the right. The tall cat is an elongated soft oval with tiny pointed ears, dot eyes, a tiny simple smile, two short whiskers on each cheek, tiny feet at the base and a thin curved tail; the loaf cat is nearly circular with little ears and a long curling tail. The third cat has a thin striped tail pointing upward and a few sparse little stripes. Give the cats subtly different silly faces. One tiny hand-drawn five-point star floats in the open upper right. All are friendly, quiet and a little odd.
+Style: deliberately naive little notebook doodles, understated editorial ink sketch, wobbly imperfect thin pen strokes with a little hand-drawn line variation; minimal detail, low density, generous negative space. This should feel like someone casually drew a few cats in the margin of their personal notebook, NOT polished cute mascot art, NOT anime, NOT elaborate furry drawings. No realistic shading. A few small rough dark patches on ears/tail only. The cats should remain essentially unfilled outlines, with truly transparent interiors and transparent canvas so it works against light and dark themes. No people, no desks, no telephone, no frames, no ground plane.
+Composition: three cats form one airy compact group centered on a landscape approximately 4:3 transparent canvas, tallest cat about twice the height of the other cats; generous breathing room around the group. Keep every tail and ear fully visible. Sparse black outlines only, no colors, no gray checker patterns, no white paper rectangle or white fill. No lettering, no text, no speech bubbles, no logo, no watermark. All name/email typography will be added as HTML.

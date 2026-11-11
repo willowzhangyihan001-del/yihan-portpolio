@@ -1,0 +1,47 @@
+{
+  "original_dimensions": [
+    [
+      2880,
+      1024
+    ],
+    [
+      2888,
+      1032
+    ],
+    [
+      2880,
+      1024
+    ],
+    [
+      2880,
+      1024
+    ],
+    [
+      2880,
+      1024
+    ],
+    [
+      2880,
+      1024
+    ]
+  ],
+  "widths_checked": [
+    320,
+    390,
+    768,
+    1024,
+    1440,
+    1920
+  ],
+  "checks": [
+    "Homepage first card opens KARIOS with matching artwork",
+    "No reference dialogs or secondary image dialogs",
+    "Six uncropped original boards",
+    "Chapter navigation",
+    "320-1920px responsive layouts",
+    "Reduced motion and scroll reveal",
+    "Return to homepage"
+  ],
+  "errors": [],
+  "missing_assets": []
+}
