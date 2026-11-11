@@ -1,0 +1,19 @@
+# Previous local working copies, research, screenshots and verification files.
+/portfolio/
+/reference-analysis/
+
+# Hosting tools and local dependencies.
+/.vercel/
+/.netlify/
+/node_modules/
+
+# Local settings and generated files.
+.env
+.env.*
+!.env.example
+*.log
+*.zip
+*.pyc
+__pycache__/
+.DS_Store
+Thumbs.db
