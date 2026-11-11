@@ -1,78 +1,76 @@
-﻿.work-gallery{position:relative;min-height:100svh;padding:0;background:var(--bg);color:var(--ink);scroll-margin-top:-65px;overflow:hidden}
-.hanging-stage{position:relative;width:100%;height:max(100svh,69.56vw)}
-.clothesline{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}
-.clothesline-mobile{display:none}
-.hanging-projects{position:absolute;inset:0}
-.hanging-card{position:absolute;left:var(--position);top:var(--drop);width:var(--width);display:block;transform:translateX(-50%);z-index:1;outline-offset:10px}
-.hanging-card:nth-child(1){--position:17%;--drop:45.4%;--width:17.3%;--hanger:46%;--overlap:-3%;--photo-ratio:1.46}
-.hanging-card:nth-child(2){--position:35%;--drop:43.3%;--width:20%;--hanger:60%;--overlap:-13%;--photo-ratio:1.23}
-.hanging-card:nth-child(3){--position:60%;--drop:36.8%;--width:20.5%;--hanger:56%;--overlap:-13%;--photo-ratio:1.42}
-.hanging-card:nth-child(4){--position:82.5%;--drop:30.8%;--width:17.3%;--hanger:62%;--overlap:-8%;--photo-ratio:1.1}
-.card-swing{display:block;transform-origin:50% 12px;transform:rotate(var(--tilt)) scale(.81);transition:transform .6s cubic-bezier(.2,.8,.2,1)}
-.clothesline g>path:first-child{stroke-width:10.12}
-.clothesline g>path:last-child{stroke-width:1.84}
-.clothesline-mobile path{stroke-width:3.68}
-.card-hanger{position:relative;display:block;width:var(--hanger);height:auto;margin:0 auto;z-index:2;pointer-events:none}
-.hanging-photo{display:block;position:relative;margin-top:var(--overlap);aspect-ratio:var(--photo-ratio);transform:translateZ(0);transition:transform .55s cubic-bezier(.2,.8,.2,1),filter .55s;filter:drop-shadow(2px 6px 7px #00000020)}
-.hanging-photo img{display:block;width:100%;height:100%;object-fit:cover;filter:grayscale(1);user-select:none}
-.hanging-number{display:block;margin-top:22px;text-align:center;font-family:Caveat,'Segoe Print',cursive;font-size:clamp(22px,2vw,36px);font-weight:400;letter-spacing:.035em;line-height:1.2;transition:transform .5s}
-.hanging-card:hover,.hanging-card:focus-visible{z-index:3}
-.hanging-card:hover .hanging-photo,.hanging-card:focus-visible .hanging-photo{transform:translateY(-5px) scale(1.035);filter:drop-shadow(0 16px 14px #00000020)}
-.hanging-card:hover .hanging-number,.hanging-card:focus-visible .hanging-number{transform:translateY(6px)}
-@media(max-width:900px){
- .work-gallery{min-height:0}
- .hanging-stage{--work-gutter:clamp(24px,6vw,48px);--work-gap:clamp(24px,4vw,36px);--work-start:126px;--card-width:calc((100cqw - var(--work-gutter)*2 - var(--work-gap))/2);--row-height:calc(var(--card-width)*1.15 + 44px);width:min(100%,720px);container-type:inline-size;height:auto;min-height:0;margin-inline:auto;padding:var(--work-start) 0 72px}
- .clothesline{display:none}
- .clothesline-mobile{display:block;position:absolute;left:0;width:100%;height:90px;pointer-events:none}
- .clothesline-mobile-first{top:calc(var(--work-start) - 50px)}
- .clothesline-mobile-second{top:calc(var(--work-start) - 50px + var(--row-height) + 52px)}
- .hanging-projects{position:relative;inset:auto;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));grid-auto-rows:var(--row-height);gap:52px var(--work-gap);padding:0 var(--work-gutter)}
- .hanging-card:nth-child(n){position:relative;left:auto;top:auto;width:100%;transform:none;--hanger:52%;--overlap:-9%}
- .hanging-card:nth-child(1){--tilt:-4deg!important}
- .hanging-card:nth-child(2){--tilt:5deg!important;translate:0 -22px}
- .hanging-card:nth-child(3){--tilt:3deg!important}
- .hanging-card:nth-child(4){--tilt:-6deg!important;translate:0 -22px}
- .card-swing{transform:rotate(var(--tilt))}
- .hanging-number{font-size:clamp(22px,3.5vw,28px);margin-top:14px}
-}
-@media(prefers-reduced-motion:reduce){.work-gallery.is-visible .hanging-card{animation:none}.card-swing,.hanging-photo,.hanging-number{transition:none}}
+@font-face{font-family:Caveat;src:url('assets/fonts/caveat-variable.ttf') format('truetype');font-weight:400 700;font-display:swap}
 
-.work-title-wrap{position:absolute;top:34%;left:6%;z-index:4;pointer-events:none}
-.work-title{font-family:Caveat,'Segoe Print',cursive;font-size:clamp(36px,3.2vw,46px);font-weight:500;line-height:1.1;letter-spacing:normal;margin:0}
-@media(max-width:900px){.work-title-wrap{top:42px;left:6%}}
-
-.hanging-photo{padding:4px;background:var(--bg)}
+.work-gallery{position:relative;min-height:100svh;padding:0;background:var(--bg);color:var(--ink);scroll-margin-top:-65px;overflow:hidden}
+.hanging-stage{width:min(100%,1360px);margin:0 auto;padding:clamp(48px,5vw,80px) clamp(24px,4vw,64px) clamp(80px,7vw,112px)}
+.work-title-wrap{margin:0 0 clamp(28px,3vw,44px);pointer-events:none}
+.work-title{margin:0;font-family:Caveat,'Segoe Print',cursive;font-size:clamp(36px,3.2vw,46px);font-weight:500;line-height:1.1;letter-spacing:normal}
+.hanging-projects{display:grid;gap:clamp(64px,7vw,104px)}
+.project-row{position:relative;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:clamp(48px,7vw,104px);align-items:start;padding-top:48px}
+.work-rope,.card-rope{position:absolute;left:0;top:0;width:100%;height:100px;overflow:visible;fill:none;stroke:currentColor;stroke-width:4.4;stroke-linecap:round;pointer-events:none}
+.rope-trace{stroke-width:1.1;opacity:.35}
+.card-rope{display:none}
+.hanging-card{position:relative;display:block;min-width:0;width:100%;z-index:1;outline-offset:12px}
+.project-row>.hanging-card:last-child{margin-top:-18px}
+.card-mount{display:block;transform-origin:50% 12px}
+.card-swing{display:block;transform:rotate(var(--tilt));transform-origin:50% 12px}
+.card-hanger{position:relative;display:block;width:34%;height:clamp(68px,8vw,112px);margin:0 auto;z-index:2;pointer-events:none}
+.hanging-photo{position:relative;display:block;margin-top:-12px;padding:4px;aspect-ratio:3/2;background:var(--bg);filter:drop-shadow(2px 7px 8px #0000001c);transform:translateZ(0);transition:transform .5s cubic-bezier(.2,.8,.2,1),filter .5s}
+.hanging-photo img{display:block;width:100%;height:100%;object-fit:cover;filter:grayscale(1);transition:filter .32s ease;user-select:none}
 .photo-frame{position:absolute;inset:-2px;width:calc(100% + 4px);height:calc(100% + 4px);fill:none;stroke:var(--ink);stroke-width:2;stroke-linecap:round;stroke-linejoin:round;pointer-events:none}
 .photo-frame path{vector-effect:non-scaling-stroke}
-.photo-frame .photo-frame-trace{stroke-width:.65;opacity:.4}
+.photo-frame-trace{stroke-width:.65;opacity:.4}
+.hanging-title{display:block;margin-top:22px;text-align:center;font-family:Caveat,'Segoe Print',cursive;font-size:clamp(28px,2.7vw,40px);font-weight:400;letter-spacing:.025em;line-height:1.2;transition:transform .4s}
+.hanging-card:hover,.hanging-card:focus-visible{z-index:3}
+.hanging-card:hover .hanging-photo,.hanging-card:focus-visible .hanging-photo{transform:translateY(-4px) scale(1.02);filter:drop-shadow(0 14px 12px #00000024)}
+.hanging-card:hover img,.hanging-card:focus-visible img{filter:grayscale(0)}
+.hanging-card:hover .hanging-title,.hanging-card:focus-visible .hanging-title{transform:translateY(3px)}
 
-/* Keep the existing card dimensions while centering the composition in one screen. */
-@media(min-width:901px){
- .work-gallery{height:100svh}
- .hanging-stage{width:min(100%,180svh,2000px);height:auto;aspect-ratio:1886/1312;top:50%;left:50%;transform:translate(-50%,-53%)}
-}
-
-/* Draw the rope first, then let each project catch its hook and settle. */
-.card-mount{display:block;transform-origin:50% 12px}
-.motion-ready .clothesline path,.motion-ready .clothesline-mobile path{stroke-dasharray:1;stroke-dashoffset:1}
+/* Each row enters once. Returning from a project settles the whole gallery. */
+.motion-ready .work-rope path,.motion-ready .card-rope path{stroke-dasharray:1;stroke-dashoffset:1}
 .motion-ready .hanging-card{visibility:hidden}
-.motion-ready .card-mount{opacity:0;translate:0 -38px;rotate:-9deg}
-.motion-ready.is-visible .clothesline path,.motion-ready.is-visible .clothesline-mobile path{animation:draw-clothesline 1250ms cubic-bezier(.4,0,.6,1) both}
-.motion-ready.is-visible .clothesline-mobile-second path{animation-delay:450ms}
-.motion-ready.is-visible .hanging-card{visibility:visible}
-.motion-ready.is-visible .card-mount{animation:hang-project 1000ms both;animation-delay:var(--delay)}
-.motion-ready.is-settled .clothesline path,.motion-ready.is-settled .clothesline-mobile path{animation:none;stroke-dashoffset:0}
-.motion-ready.is-settled .card-mount{animation:none;opacity:1;translate:0 0;rotate:0deg}
+.motion-ready .card-mount{opacity:0;translate:0 -26px;rotate:-5deg}
+.motion-ready .project-row.is-visible .work-rope path,.motion-ready .project-row.is-visible .card-rope path{animation:draw-clothesline 950ms cubic-bezier(.4,0,.6,1) both;animation-delay:var(--row-delay)}
+.motion-ready .project-row.is-visible .hanging-card{visibility:visible}
+.motion-ready .project-row.is-visible .card-mount{animation:hang-project 1000ms both;animation-delay:calc(var(--delay) + var(--row-delay))}
+.motion-ready .project-row.is-settled .work-rope path,.motion-ready .project-row.is-settled .card-rope path{animation:none;stroke-dashoffset:0}
+.motion-ready .project-row.is-settled .card-mount{animation:none;opacity:1;translate:0 0;rotate:0deg}
+.motion-ready.is-settled .hanging-card{visibility:visible}
 @keyframes draw-clothesline{from{stroke-dashoffset:1}to{stroke-dashoffset:0}}
 @keyframes hang-project{
- 0%{opacity:0;translate:0 -38px;rotate:-9deg;animation-timing-function:cubic-bezier(.2,.7,.2,1)}
- 24%{opacity:1;translate:0 4px;rotate:5deg;animation-timing-function:ease-in-out}
- 48%{opacity:1;translate:0 -2px;rotate:-3deg;animation-timing-function:ease-in-out}
- 72%{opacity:1;translate:0 0;rotate:1.5deg;animation-timing-function:ease-in-out}
+ 0%{opacity:0;translate:0 -26px;rotate:-5deg;animation-timing-function:cubic-bezier(.2,.7,.2,1)}
+ 28%{opacity:1;translate:0 3px;rotate:2.5deg;animation-timing-function:ease-in-out}
+ 55%{opacity:1;translate:0 -1px;rotate:-1.4deg;animation-timing-function:ease-in-out}
+ 78%{opacity:1;translate:0 0;rotate:.6deg;animation-timing-function:ease-in-out}
  100%{opacity:1;translate:0 0;rotate:0deg}
 }
+@media(max-width:900px){
+ .hanging-stage{padding-inline:clamp(28px,5vw,44px)}
+ .project-row{column-gap:40px}
+ .card-hanger{height:clamp(64px,10vw,88px);width:36%}
+ .hanging-title{font-size:clamp(27px,3.7vw,34px);margin-top:18px}
+ .hanging-projects{gap:64px}
+}
+@media(max-width:600px){
+ .hanging-stage{padding:40px clamp(24px,6vw,36px) 80px}
+ .work-title-wrap{margin-bottom:24px}
+ .hanging-projects{gap:56px}
+ .project-row{grid-template-columns:minmax(0,1fr);gap:56px;padding-top:0}
+ .work-rope{display:none}
+ .hanging-card{width:min(100%,440px);padding-top:48px;margin-inline:auto}
+ .project-row>.hanging-card:last-child{margin-top:0}
+ .card-rope{display:block;left:-12px;top:14px;width:calc(100% + 24px);height:90px;stroke-width:4.4}
+ .card-rope .rope-trace{stroke-width:1.1}
+ .card-hanger{width:36%;height:clamp(68px,20vw,100px)}
+ .hanging-title{font-size:30px;margin-top:18px}
+ .hanging-photo{margin-top:-9px}
+}
+@media(hover:none),(pointer:coarse){
+ .hanging-photo img{filter:none}
+ .hanging-card:active .hanging-photo{transform:translateY(-3px) scale(1.015)}
+}
 @media(prefers-reduced-motion:reduce){
- .work-gallery.motion-ready .clothesline path,.work-gallery.motion-ready .clothesline-mobile path{animation:none;stroke-dashoffset:0}
- .work-gallery.motion-ready .hanging-card{animation:none;visibility:visible}
+ .work-gallery.motion-ready .work-rope path,.work-gallery.motion-ready .card-rope path{animation:none;stroke-dashoffset:0}
+ .work-gallery.motion-ready .hanging-card{visibility:visible}
  .work-gallery.motion-ready .card-mount{animation:none;opacity:1;translate:0 0;rotate:0deg}
+ .hanging-photo,.hanging-photo img,.hanging-title{transition:none}
 }
